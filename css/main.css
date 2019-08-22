@@ -1,0 +1,23 @@
+.counters {
+  display: flex;
+  justify-content: center;
+}
+
+.counter {
+  display: block;
+  text-align: center;
+  max-width: 16rem;
+  min-height: 122px;
+  padding: 1rem;
+  margin: 0 0.5rem;
+}
+
+.counter__number {
+  font-size: 4rem;
+  min-height: 74px;
+}
+
+.counter__footer {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
